@@ -1,0 +1,64 @@
+* {
+    font-family: 'Molisa Delawere', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+body {
+    margin-top: 2%;
+    background-color: lightblue;
+}
+
+h1 {
+    border-style: solid;
+    border-radius: 40px;
+}
+
+.p-BKE {
+  color: rgb(99, 151, 184);  
+}
+
+.p-WAM {
+    color: grey;
+}
+
+.p-BTLS {
+    color: red;
+}
+
+.games {
+    padding: 10px;
+    column-count: 7;
+    column-fill: balance;
+}
+
+.BKE {
+    width: 450px;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+}
+
+.WAM {
+    width: 550px;
+    position: absolute;
+    top: 290px;
+    left: 700px;
+    border-style: solid;
+    border-color: rgb(99, 151, 184);
+    border-width: 5px;
+}
+
+.BTLS {
+    width: 410px;
+    position: absolute;
+    top: 250px;
+    right: 200px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 5px;
+}

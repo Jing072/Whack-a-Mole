@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Whack a Mole </title>
+    <link rel="stylesheet" href="css/Whack-a-Mole.css">
+    <link href="https://fonts.cdnfonts.com/css/molisa-delawere" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1> Whack a Mole </h1>
+    </header>
+    <main>
+        <!-- Here underneath are the playboards -->
+        <div class="board-1">
+            <!-- This is for the playboard 3x3 -->
+            <div class="hole">
+                <img class="mole" src="/img/mole.png" alt="mole" title="mole">
+            </div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div> 
+        </div>
+
+        <!-- This is for the playboard 4x4 -->
+        <div class="board-2">
+            <!-- <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div>
+            <div class="hole"></div> -->
+        </div>
+
+         <!-- This is for the playboard 5x5 -->
+         <div class="board-3">
+            
+         </div>
+
+          <!-- This is for the playboard 6x6 -->
+        <div class="board-4">
+            
+        </div>
+
+        <!--Points, time and messagebox-->
+        <div class="scoreBoard">
+            Je aantal punten :
+        </div>
+
+        <div class="points">
+            0
+        </div>
+
+        <div class="messagebox">
+            <div class="container">
+                <!--Here comes the messages-->
+            </div>
+        </div>
+
+        <!--This is for the player to input their name-->
+        <div>
+            <input type="text" name="inputField" id="inputField" minlength="5" maxlength="20" required>
+            <button class="enter">enter</button>
+        </div>
+
+        <!--The leaderboard-->
+        <h3>leaderboard</h3>
+        <div class="leaderboard">
+            <div class="scores">
+
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+    <script src="js/Whack-a-Mole.js"></script>
+</body>
+</html>

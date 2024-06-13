@@ -1,0 +1,162 @@
+* {
+    font-family: 'Molisa Delawere', sans-serif;
+    color: rgb(189, 33, 33);
+}
+
+body {
+    background-color: lightseagreen;
+}
+
+h1 {
+    border: 4px solid rgb(189, 33, 33);
+    border-radius: 40px;
+    text-align: center;
+}
+
+/* playboard 3x3 */
+.board-1 {
+    width: 740px;
+    height: 740px;
+    background-color: rgb(120, 158, 214);
+    box-sizing: border-box;
+    position: absolute;
+    border: 4px solid rgb(189, 33, 33);
+    top: 120px;
+    left: 560px;
+}
+
+
+.hole {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 100px;
+    border: 3px solid rgb(189, 33, 33);
+    overflow: hidden;
+}
+
+.hole:hover {
+    background-color: rgb(177, 14, 14);
+}
+
+.mole {
+    width: 200px;
+    position: absolute;
+    left: 5px;
+    top: 35px;
+}
+
+.hole:nth-child(1) {
+    top: 50px;
+    left: 60px;
+}
+
+.hole:nth-child(2) {
+    top: 50px;
+    left: 270px;
+}
+
+.hole:nth-child(3) {
+    top: 50px;
+    left: 480px;
+}
+
+.hole:nth-child(4) {
+    top: 260px;
+    left: 60px;
+}
+
+.hole:nth-child(5) {
+    top: 260px;
+    left: 270px;
+}
+
+.hole:nth-child(6) {
+    top: 260px;
+    left: 480px;
+}
+
+.hole:nth-child(7) {
+    top: 470px;
+    left: 60px;
+}
+
+.hole:nth-child(8) {
+    top: 470px;
+    left: 270px;
+}
+
+.hole:nth-child(9) {
+    top: 470px;
+    left: 480px;
+} 
+
+.scoreBoard {
+    position: absolute;
+    top: 90px;
+    left: 805px
+}
+
+.points {
+    position: absolute;
+    top: 90px;
+    left: 1010px;
+}
+
+.messagebox {
+    width: 240px;
+    height: 450px;
+    background-color: rgb(120, 158, 214);
+    border: 4px solid rgb(189, 33, 33);
+    position: absolute;
+    top: 120px;
+    right: 200px;
+}
+
+input {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+button {
+    position: absolute;
+    top: 120px;
+    left: 280px;
+}
+
+h3 {
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+
+.leaderboard {
+    width: 240px;
+    height: 450px;
+    background-color: rgb(120, 158, 214);
+    border: 4px solid rgb(189, 33, 33);
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    padding: 5px;
+}
+
+/* playboard 4x4 */
+.board-2 {
+    
+}
+
+/* playboard 5x5 */
+.board-3 {
+
+}
+
+/* playboard 6x6 */
+.board-4 {
+
+}
+
+

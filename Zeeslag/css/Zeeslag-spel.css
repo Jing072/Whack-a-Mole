@@ -1,0 +1,69 @@
+:root{
+    --blue: #407BA7;
+    --white: #FFFFFF;
+}
+
+/* *{
+    font-family: 'Molisa Delawere', sans-serif;
+    text-align: center;
+    background-color: var(--white)
+} */
+
+header {
+    text-align: center;
+    font-size: 30px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+}
+
+.sea{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+/* player/enemy */
+.player-grid, .enemy-grid{
+    background-color: lightblue;
+    border: 1px solid white;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+/* hier moet je een bom stylen de klasse voor een bom is bomb*/
+.ship {
+    background-color: black;
+}
+
+
+.attacked {
+    background-color: red;
+}
+
+/* hover maken */
+/* .player-grid:hover {
+    background-color: skyblue;
+}
+
+.enemy-grid:hover {
+    background-color: skyblue;
+} */
+
+
+@media screen and (max-width: 700px) {
+    main{
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+    
+}
+
+
+
+
+
+
